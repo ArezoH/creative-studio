@@ -1,0 +1,646 @@
+{
+  "layout": {
+    "header": {
+      "title": "Estudio Creativo",
+      "tagline": "LIBERA TU CREATIVIDAD",
+      "logout": "Cerrar Sesión"
+    },
+    "languages": {
+      "english": "Inglés",
+      "spanish": "Español"
+    }
+  },
+  "canvas": {
+    "emptyState": {
+      "title": "Comienza a Crear Contenido",
+      "description": "Arrastra widgets desde la barra lateral para comenzar"
+    },
+    "loading": {
+      "title": "Cargando Panel",
+      "description": "Restaurando tu espacio de trabajo..."
+    },
+    "confirmDelete": "¿Estás seguro de que deseas eliminar este widget? Esto lo eliminará para todos los colaboradores.",
+    "toast": {
+      "widgetRemoved": {
+        "title": "Widget Eliminado",
+        "description": "El widget ha sido eliminado de tu panel"
+      },
+      "widgetDeleted": {
+        "title": "Widget Eliminado",
+        "description": "El widget ha sido eliminado permanentemente"
+      },
+      "cannotDelete": {
+        "title": "No se Puede Eliminar",
+        "description": "Solo el propietario puede eliminar este widget"
+      },
+      "error": {
+        "title": "Error",
+        "description": "No se pudo eliminar el widget"
+      }
+    }
+  },
+  "widgetLibrary": {
+    "title": "Biblioteca de Widgets",
+    "tapToAdd": "Toca para agregar",
+    "dragToCanvas": "Arrastra al lienzo",
+    "widgets": {
+      "content-editor": {
+        "name": "Editor de Contenido"
+      },
+      "todo-list": {
+        "name": "Lista de Tareas"
+      },
+      "calendar-widget": {
+        "name": "Calendario"
+      },
+      "image-gallery": {
+        "name": "Galería de Imágenes"
+      },
+      "notes-widget": {
+        "name": "Notas Rápidas"
+      }
+    },
+    "hints": {
+      "mobile": {
+        "tap": "• Toca los widgets para agregarlos",
+        "quickAdd": "• Usa el botón + para agregar rápido",
+        "press": "• Presiona",
+        "toClose": "para cerrar"
+      },
+      "desktop": {
+        "drag": "• Arrastra los widgets al lienzo",
+        "press": "• Presiona",
+        "toClose": "para cerrar",
+        "use": "• Usa",
+        "toToggle": "para alternar"
+      }
+    }
+  },
+  "widget": {
+    "ariaLabel": "Widget",
+    "accessLevel": "Widget con acceso de {role}",
+    "sharedWidget": "Widget compartido",
+    "manageCollaborators": "Gestionar colaboradores",
+    "shareWidget": "Compartir este widget",
+    "viewCollaborators": "Ver colaboradores",
+    "deleteWidget": "Eliminar widget",
+    "removeFromDashboard": "Eliminar del panel",
+    "owner": "Propietario",
+    "viewOnly": "Solo lectura",
+    "unknownWidget": "Widget Desconocido",
+    "removeModal": {
+      "title": "Eliminar widget",
+      "message": "¿Estás seguro de que deseas eliminar '{name}' de tu panel? Perderás el acceso a este widget de forma permanente, a menos que el propietario lo vuelva a compartir contigo.",
+      "confirm": "Eliminar",
+      "cancel": "Cancelar"
+    },
+    "deleteModal": {
+      "title": "Eliminar widget permanentemente",
+      "message": "¿Estás seguro de que deseas eliminar '{name}' de forma permanente? Esta acción no se puede deshacer.",
+      "confirm": "Eliminar permanentemente",
+      "cancel": "Cancelar",
+      "warning": "Advertencia: Este widget está compartido con otros usuarios. Al eliminarlo, se quitará el acceso a todos los colaboradores."
+    }
+  },
+  "shareModal": {
+    "title": "Compartir Widget",
+    "owner": "Propietario",
+    "you": "Tú",
+    "yourAccessLevel": "Tu nivel de acceso",
+    "canEdit": "Puedes editar este widget",
+    "canOnlyView": "Solo puedes ver este widget",
+    "shareWithEmail": "Compartir por correo electrónico",
+    "emailPlaceholder": "Ingresa la dirección de correo...",
+    "shareButton": "Compartir",
+    "accessInfo": "Los usuarios registrados obtienen acceso de editor. Los usuarios externos obtienen acceso de visor hasta que se registren.",
+    "peopleWithAccess": "Personas con acceso",
+    "removeAccess": "Eliminar acceso",
+    "pending": "Pendiente",
+    "externalUserAwaiting": "Usuario externo - esperando registro",
+    "copyInviteLink": "Copiar enlace de invitación",
+    "revokeInvite": "Revocar invitación",
+    "noCollaborators": "Aún no hay colaboradores",
+    "leaveWidget": "Abandonar este widget",
+    "leaveWidgetDescription": "Esto eliminará el widget de tu panel y revocará tu acceso",
+    "linkCopied": "¡Enlace copiado al portapapeles!",
+    "done": "Listo",
+    "roles": {
+      "owner": "Propietario",
+      "editor": "Editor",
+      "viewer": "Visor"
+    },
+    "toast": {
+      "sharedSuccess": {
+        "title": "Compartido Exitosamente",
+        "description": "{name} ahora tiene acceso de editor"
+      },
+      "invitationSent": {
+        "title": "Invitación Enviada",
+        "description": "Invitación creada para {email} (acceso de visor)"
+      },
+      "roleUpdated": {
+        "title": "Rol Actualizado",
+        "description": "Nivel de acceso cambiado a {role}"
+      },
+      "accessRemoved": {
+        "title": "Acceso Eliminado",
+        "description": "El colaborador ya no tiene acceso"
+      },
+      "invitationRevoked": {
+        "title": "Invitación Revocada",
+        "description": "La invitación del usuario externo ha sido cancelada"
+      },
+      "copied": {
+        "title": "Copiado",
+        "description": "Enlace de invitación copiado al portapapeles"
+      },
+      "widgetRemoved": {
+        "title": "Widget Eliminado",
+        "description": "Ya no tienes acceso a este widget"
+      },
+      "error": {
+        "title": "Error",
+        "roleUpdateFailed": "No se pudo actualizar el rol",
+        "removeFailed": "No se pudo eliminar al colaborador",
+        "revokeFailed": "No se pudo revocar la invitación",
+        "leaveFailed": "No se pudo abandonar el widget"
+      }
+    }
+  },
+  "calendar": {
+    "previousMonth": "Mes anterior",
+    "nextMonth": "Mes siguiente",
+    "addEvent": "Agregar evento",
+    "calendarGrid": "Cuadrícula del calendario",
+    "eventTitlePlaceholder": "Título del evento...",
+    "add": "Agregar",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "myEvents": "Mis Eventos",
+    "upcomingDueDates": "Próximas Fechas de Vencimiento",
+    "hide": "Ocultar",
+    "show": "Mostrar",
+    "completed": "Completados",
+    "completedEvents": "Eventos Completados",
+    "completedOn": "Completado el",
+    "noUpcomingEvents": "No hay eventos próximos",
+    "noLocalEvents": "No hay eventos locales",
+    "noEvents": "Aún no hay eventos",
+    "markAsCompleted": "Marcar como completado",
+    "editEvent": "Editar evento",
+    "deleteEvent": "Eliminar evento",
+    "restoreEvent": "Restaurar evento",
+    "deletePermanently": "Eliminar permanentemente",
+    "confirmDelete": "¿Estás seguro de que deseas eliminar este evento?",
+    "today": "Hoy",
+    "tomorrow": "Mañana",
+    "daysOverdue": "{days} día de retraso | {days} días de retraso",
+    "inDays": "En {days} día | En {days} días",
+    "days": {
+      "su": "Do",
+      "mo": "Lu",
+      "tu": "Ma",
+      "we": "Mi",
+      "th": "Ju",
+      "fr": "Vi",
+      "sa": "Sa"
+    },
+    "legend": {
+      "local": "Local",
+      "google": "Google"
+    },
+    "google": {
+      "title": "Google Calendar",
+      "sync": "Sincronizar",
+      "synced": "Sincronizado",
+      "syncButton": "Sincronizar con Google Calendar",
+      "syncedLabel": "Sincronizado",
+      "openInGoogle": "Abrir en Google Calendar",
+      "justNow": "ahora mismo",
+      "mAgo": "m atrás",
+      "toast": {
+        "synced": {
+          "title": "Calendario Sincronizado",
+          "description": "{count} evento sincronizado | {count} eventos sincronizados"
+        },
+        "failed": {
+          "title": "Sincronización Fallida",
+          "description": "No se pudo sincronizar con Google Calendar"
+        },
+        "notLinked": {
+          "title": "Google Calendar No Vinculado",
+          "description": "Por favor vincula tu cuenta de Google en configuración para sincronizar tu calendario."
+        }
+      }
+    },
+    "toast": {
+      "eventAdded": {
+        "title": "Evento agregado",
+        "description": "\"{title}\" fue agregado exitosamente."
+      },
+      "eventCompleted": {
+        "title": "Evento completado",
+        "description": "\"{title}\" marcado como completado."
+      },
+      "eventRestored": {
+        "title": "Evento restaurado",
+        "description": "\"{title}\" fue restaurado."
+      },
+      "eventDeleted": {
+        "title": "Evento eliminado",
+        "description": "\"{title}\" fue eliminado."
+      },
+      "eventUpdated": {
+        "title": "Evento actualizado",
+        "description": "\"{title}\" fue actualizado."
+      }
+    }
+  },
+  "editor": {
+    "placeholder": "Comienza a escribir tu contenido...",
+    "toolbar": {
+      "bold": "Negrita",
+      "italic": "Cursiva",
+      "underline": "Subrayado",
+      "highlight": "Resaltar",
+      "heading1": "Encabezado 1",
+      "heading2": "Encabezado 2",
+      "heading3": "Encabezado 3",
+      "bulletList": "Lista con viñetas",
+      "numberedList": "Lista numerada",
+      "alignLeft": "Alinear a la izquierda",
+      "alignCenter": "Centrar",
+      "alignRight": "Alinear a la derecha",
+      "undo": "Deshacer",
+      "redo": "Rehacer",
+      "copyContent": "Copiar contenido",
+      "exportHtml": "Exportar como HTML"
+    },
+    "stats": {
+      "characters": "caracteres",
+      "words": "palabras"
+    },
+    "status": {
+      "saving": "Guardando...",
+      "saved": "Guardado",
+      "savedJustNow": "Guardado hace un momento",
+      "savedMinutesAgo": "Guardado hace {minutes}m",
+      "savedAt": "Guardado {time}",
+      "notSaved": "No guardado"
+    },
+    "toast": {
+      "copied": {
+        "title": "Copiado",
+        "description": "Contenido copiado al portapapeles."
+      },
+      "downloaded": {
+        "title": "Descargado",
+        "description": "Tu contenido ha sido exportado como HTML."
+      },
+      "error": {
+        "title": "Error",
+        "copyFailed": "No se pudo copiar el contenido."
+      }
+    }
+  },
+  "imageGallery": {
+    "title": "Galería de Imágenes",
+    "reload": "Recargar",
+    "upload": "Subir",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "noImagesYet": "Aún no hay imágenes",
+    "noImagesInGallery": "No hay imágenes en esta galería",
+    "uploadToGetStarted": "Sube imágenes para comenzar",
+    "imageCount": "{count} imagen | {count} imágenes",
+    "imagePreview": "Vista Previa de Imagen",
+    "deleteImage": "Eliminar Imagen",
+    "deleteConfirmMessage": "¿Estás seguro de que deseas eliminar esta imagen? Esta acción no se puede deshacer.",
+    "toast": {
+      "galleryInitialized": {
+        "title": "Galería Inicializada",
+        "description": "Nueva galería de widget creada"
+      },
+      "connectionFailed": {
+        "title": "Conexión Fallida",
+        "description": "No se pudo conectar a la galería"
+      },
+      "loadFailed": {
+        "title": "Carga Fallida",
+        "description": "No se pudieron cargar las imágenes"
+      },
+      "uploadSuccess": {
+        "title": "Subida Exitosa",
+        "description": "{count} imagen subida | {count} imágenes subidas"
+      },
+      "uploadFailed": {
+        "title": "Subida Fallida",
+        "description": "La subida falló"
+      },
+      "imageDeleted": {
+        "title": "Imagen Eliminada",
+        "description": "Imagen eliminada de la galería"
+      },
+      "deleteFailed": {
+        "title": "Eliminación Fallida",
+        "description": "La eliminación falló"
+      }
+    }
+  },
+  "todo": {
+    "title": "Lista de Tareas",
+    "addNewTaskPlaceholder": "Agregar nueva tarea...",
+    "noTasksYet": "Aún no hay tareas"
+  },
+  "notifications": {
+    "title": "Notificaciones",
+    "markAllRead": "Marcar todo como leído",
+    "noNotificationsYet": "Aún no hay notificaciones",
+    "clearAll": "Borrar todo",
+    "actions": {
+      "addToDashboard": "Agregar al Panel",
+      "dismiss": "Descartar",
+      "viewWidget": "Ver Widget",
+      "viewChanges": "Ver Cambios",
+      "ok": "OK",
+      "gotIt": "Entendido",
+      "view": "VER",
+      "delete": "Borrar"
+    },
+    "roles": {
+      "editor": "Editor",
+      "viewer": "Visor"
+    },
+    "types": {
+      "widgetShared": {
+        "title": "Widget Compartido Contigo",
+        "message": "{user} compartió \"{widget}\" contigo como {role}"
+      },
+      "roleChanged": {
+        "title": "Nivel de Acceso Cambiado",
+        "message": "Tu acceso a \"{widget}\" fue cambiado a {role} por {user}"
+      },
+      "accessRemoved": {
+        "title": "Acceso Eliminado",
+        "message": "{user} eliminó tu acceso a \"{widget}\""
+      },
+      "widgetUpdated": {
+        "title": "Widget Actualizado",
+        "message": "{user} hizo cambios en \"{widget}\""
+      },
+      "collaboratorLeft": {
+        "title": "Colaborador Abandonó",
+        "message": "{user} eliminó \"{widget}\" de su panel"
+      },
+      "widgetDeleted": {
+        "title": "Widget eliminado",
+        "message": "{user} eliminó el widget compartido \"{widget}\""
+      }
+    },
+    "timeAgo": {
+      "justNow": "Ahora mismo",
+      "minutesAgo": "Hace {minutes}m",
+      "hoursAgo": "Hace {hours}h",
+      "daysAgo": "Hace {days}d"
+    }
+  },
+  "search": {
+    "placeholder": "Buscar widgets...",
+    "ariaLabel": "Buscar widgets",
+    "previousMatch": "Coincidencia anterior",
+    "nextMatch": "Siguiente coincidencia",
+    "clearSearch": "Limpiar búsqueda",
+    "resultsStatus": "{current} de {total} resultados",
+    "noWidgetsFound": "No se encontraron widgets"
+  },
+  "home": {
+    "createContentWith": "Crea contenido con",
+    "aiMagic": "Herramientas Inteligentes",
+    "tagline": "Construye contenido impresionante con simplicidad de arrastrar y soltar, potenciado por automatización de vanguardia. La plataforma perfecta para creadores, marketers y narradores.",
+    "welcomeBack": "Bienvenido de nuevo, {name}",
+    "creator": "Creador",
+    "getStarted": "Comienza Gratis",
+    "watchDemo": "Ver Demo",
+    "yourDashboards": "Tus Paneles ({count})",
+    "created": "Creado",
+    "createDashboard": {
+      "title": "Crear Nuevo Panel",
+      "placeholder": "Ingrese el título del panel...",
+      "createButton": "Crear",
+      "loadingMessage": "Cargando sus paneles...",
+      "emptyState": {
+        "title": "Aún no hay paneles",
+        "description": "Cree su primer panel para comenzar"
+      }
+    },
+    "dates": {
+      "today": "Hoy",
+      "yesterday": "Ayer",
+      "daysAgo": "Hace {days} días"
+    },
+    "features": {
+      "heading": "Características Poderosas",
+      "items": [
+        {
+          "title": "Arrastrar y Soltar Intuitivo",
+          "description": "Cree hermosos diseños sin esfuerzo con nuestra interfaz simple y potente."
+        },
+        {
+          "title": "Generación de Contenido Inteligente",
+          "description": "Deje que nuestras herramientas escriban blogs, copys publicitarios y contenido para redes sociales por usted."
+        },
+        {
+          "title": "Colaboración en Tiempo Real",
+          "description": "Trabaje con su equipo en tiempo real para crear y editar contenido juntos."
+        }
+      ]
+    },
+    "footer": {
+      "title": "Estudio Creativo",
+      "tagline": "Creando experiencias de contenido mágicas con herramientas inteligentes y automatizadas.",
+      "copyright": "© 2025 Estudio de Contenido. Todos los derechos reservados."
+    },
+    "modals": {
+      "editDashboard": {
+        "title": "Editar Panel",
+        "label": "Título del Panel",
+        "cancelButton": "Cancelar",
+        "saveButton": "Guardar Cambios"
+      },
+      "deleteDashboard": {
+        "title": "Eliminar Panel",
+        "confirmMessage": "¿Está seguro de que desea eliminar \"{title}\"? Esto también eliminará todos los widgets de este panel. Esta acción no se puede deshacer.",
+        "cancelButton": "Cancelar",
+        "deleteButton": "Eliminar Panel"
+      }
+    },
+    "toast": {
+      "dashboardCreated": {
+        "title": "Panel Creado",
+        "description": "\"{title}\" se ha creado con éxito."
+      },
+      "dashboardUpdated": {
+        "title": "Panel Actualizado",
+        "description": "El título del panel ha sido actualizado."
+      },
+      "dashboardDeleted": {
+        "title": "Panel Eliminado",
+        "description": "El panel y todos sus widgets han sido eliminados."
+      },
+      "errors": {
+        "createDashboard": {
+          "title": "Error",
+          "description": "No se pudo crear el panel. Inténtelo de nuevo."
+        },
+        "updateDashboard": {
+          "title": "Error",
+          "description": "No se pudo actualizar el panel. Inténtelo de nuevo."
+        },
+        "deleteDashboard": {
+          "title": "Error",
+          "description": "No se pudo eliminar el panel. Inténtelo de nuevo."
+        }
+      }
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Iniciar Sesión",
+      "submitButton": "Iniciar Sesión",
+      "noAccount": "¿No tienes una cuenta?",
+      "signUpLink": "Regístrate aquí"
+    },
+    "register": {
+      "title": "Registrarse",
+      "submitButton": "Registrarse",
+      "hasAccount": "¿Ya tienes una cuenta?",
+      "loginLink": "Inicia sesión aquí"
+    },
+    "fields": {
+      "name": "Nombre",
+      "email": "Correo electrónico",
+      "password": "Contraseña"
+    },
+    "validation": {
+      "invalidEmail": "Correo electrónico inválido",
+      "passwordMin": "Debe tener al menos 8 caracteres"
+    },
+    "oauth": {
+      "google": "Iniciar sesión con Google",
+      "github": "Iniciar sesión con Github",
+      "microsoft": "Iniciar sesión con Microsoft"
+    },
+    "toast": {
+      "loginSuccess": {
+        "title": "¡Sesión iniciada con éxito!",
+        "description": "¡Bienvenido!"
+      },
+      "registerSuccess": {
+        "title": "Usuario Registrado",
+        "description": "¡Gracias por registrarte!"
+      },
+      "errors": {
+        "loginTitle": "Error al Iniciar Sesión",
+        "loginGeneric": "Hubo un problema al iniciar sesión. Por favor contacte a soporte",
+        "registerTitle": "Error al Registrarse",
+        "registerGeneric": "Hubo un problema al registrarse. Por favor contacte a soporte"
+      }
+    }
+  },
+  "sharePage": {
+    "loading": "Cargando widget compartido...",
+    "goToHome": "Ir al Inicio",
+    "sharedWidget": "Widget Compartido",
+    "sharedBy": "Compartido por",
+    "unknown": "Desconocido",
+    "linkExpires": "El enlace expira",
+    "signInToAdd": "Inicia sesión para agregar este widget",
+    "createAccountOrSignIn": "Crea una cuenta o inicia sesión para agregar este widget a tu panel y comenzar a colaborar.",
+    "signIn": "Iniciar Sesión",
+    "createAccount": "Crear Cuenta",
+    "redirectNote": "Después de iniciar sesión, serás redirigido aquí para agregar el widget.",
+    "widgetAlreadyInDashboard": "¡El widget ya está en tu panel!",
+    "widgetAlreadyInDashboardDescription": "Este widget ya está en tu panel. Puedes acceder a él desde allí.",
+    "youHaveAccess": "Tienes acceso de {role}",
+    "access": "acceso",
+    "addToYourDashboard": "Agregar a Tu Panel",
+    "selectDashboardDescription": "Selecciona a qué panel quieres agregar este widget",
+    "selectDashboard": "Selecciona un panel",
+    "noDashboardsYet": "Aún no tienes ningún panel.",
+    "createDashboard": "Crear Panel",
+    "created": "Creado",
+    "createNewDashboard": "Crear nuevo panel",
+    "dashboardNamePlaceholder": "Nombre del panel...",
+    "create": "Crear",
+    "cancel": "Cancelar",
+    "addWidgetToDashboard": "Agregar Widget al Panel",
+    "addToDashboard": "Agregar al Panel",
+    "youllGetAccess": "Obtendrás acceso de {role} a este widget.",
+    "defaultDashboardName": "Mi Panel",
+    "errors": {
+      "linkNotFound": {
+        "title": "Enlace No Encontrado",
+        "message": "Este enlace de compartir no existe o ha sido revocado."
+      },
+      "linkExpired": {
+        "title": "Enlace Expirado",
+        "message": "Este enlace de compartir ha expirado. Por favor solicita un nuevo enlace al propietario."
+      },
+      "generic": {
+        "title": "Error",
+        "message": "No se pudo cargar el widget compartido."
+      }
+    },
+    "expiration": {
+      "unknown": "Desconocido",
+      "expired": "Expirado",
+      "daysLeft": "Queda {days} día | Quedan {days} días",
+      "hoursLeft": "Queda {hours} hora | Quedan {hours} horas",
+      "lessThanHour": "Menos de 1 hora"
+    },
+    "toast": {
+      "dashboardCreated": {
+        "title": "Panel Creado",
+        "description": "\"{name}\" ha sido creado"
+      },
+      "widgetAdded": {
+        "title": "¡Widget Agregado!",
+        "description": "El widget ha sido agregado a tu panel"
+      },
+      "error": {
+        "title": "Error",
+        "createDashboardFailed": "No se pudo crear el panel",
+        "addWidgetFailed": "No se pudo agregar el widget al panel"
+      }
+    }
+  },
+  "widgetPreview": {
+    "widget": "Widget",
+    "preview": "Vista Previa",
+    "done": "Hecho",
+    "widgetPreview": "Vista previa del widget",
+    "type": "Tipo",
+    "imagePreview": "Vista Previa de Imagen",
+    "roles": {
+      "editor": "Editor",
+      "viewer": "Visor"
+    },
+    "widgetTypes": {
+      "contentEditor": "Editor de Contenido",
+      "todoList": "Lista de Tareas",
+      "calendar": "Calendario",
+      "imageGallery": "Galería de Imágenes",
+      "quickNotes": "Notas Rápidas"
+    },
+    "emptyStates": {
+      "noContent": "Aún no hay contenido",
+      "noTasks": "Aún no hay tareas",
+      "noEvents": "Aún no hay eventos",
+      "noImages": "Aún no hay imágenes"
+    },
+    "dates": {
+      "today": "Hoy",
+      "tomorrow": "Mañana"
+    }
+  }
+}

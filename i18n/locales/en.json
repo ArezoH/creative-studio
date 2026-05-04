@@ -1,0 +1,646 @@
+{
+  "layout": {
+    "header": {
+      "title": "Creative Studio",
+      "tagline": "UNLEASH YOUR CREATIVITY",
+      "logout": "Logout"
+    },
+    "languages": {
+      "english": "English",
+      "spanish": "Spanish"
+    }
+  },
+  "widgetLibrary": {
+    "title": "Widget Library",
+    "tapToAdd": "Tap to add",
+    "dragToCanvas": "Drag to canvas",
+    "widgets": {
+      "content-editor": {
+        "name": "Content Editor"
+      },
+      "todo-list": {
+        "name": "Todo List"
+      },
+      "calendar-widget": {
+        "name": "Calendar"
+      },
+      "image-gallery": {
+        "name": "Image Gallery"
+      },
+      "notes-widget": {
+        "name": "Quick Notes"
+      }
+    },
+    "hints": {
+      "mobile": {
+        "tap": "• Tap widgets to add them",
+        "quickAdd": "• Use + button for quick add",
+        "press": "• Press",
+        "toClose": "to close"
+      },
+      "desktop": {
+        "drag": "• Drag widgets to the canvas",
+        "press": "• Press",
+        "toClose": "to close",
+        "use": "• Use",
+        "toToggle": "to toggle"
+      }
+    }
+  },
+  "widget": {
+    "ariaLabel": "Widget",
+    "accessLevel": "Widget with {role} access",
+    "sharedWidget": "Shared widget",
+    "manageCollaborators": "Manage collaborators",
+    "shareWidget": "Share this widget",
+    "viewCollaborators": "View collaborators",
+    "deleteWidget": "Delete widget",
+    "removeFromDashboard": "Remove from dashboard",
+    "owner": "Owner",
+    "viewOnly": "View only",
+    "unknownWidget": "Unknown Widget",
+    "removeModal": {
+      "title": "Remove Widget",
+      "message": "Are you sure you want to remove '{name}' from your dashboard? You will lose access to this widget permanently unless the owner shares it with you again.",
+      "confirm": "Remove",
+      "cancel": "Cancel"
+    },
+    "deleteModal": {
+      "title": "Delete Widget Permanently",
+      "message": "Are you sure you want to permanently delete '{name}'? This action cannot be undone.",
+      "confirm": "Delete Permanently",
+      "cancel": "Cancel",
+      "warning": "Warning: This widget is shared with other users. Deleting it will remove access for all collaborators."
+    }
+  },
+  "canvas": {
+    "emptyState": {
+      "title": "Start Creating Content",
+      "description": "Drag widgets from the sidebar to get started"
+    },
+    "loading": {
+      "title": "Loading Dashboard",
+      "description": "Restoring your workspace..."
+    },
+    "confirmDelete": "Are you sure you want to delete this widget? This will remove it for all collaborators.",
+    "toast": {
+      "widgetRemoved": {
+        "title": "Widget Removed",
+        "description": "Widget has been removed from your dashboard"
+      },
+      "widgetDeleted": {
+        "title": "Widget Deleted",
+        "description": "Widget has been permanently deleted"
+      },
+      "cannotDelete": {
+        "title": "Cannot Delete",
+        "description": "Only the owner can delete this widget"
+      },
+      "error": {
+        "title": "Error",
+        "description": "Failed to delete widget"
+      }
+    }
+  },
+  "shareModal": {
+    "title": "Share Widget",
+    "owner": "Owner",
+    "you": "You",
+    "yourAccessLevel": "Your access level",
+    "canEdit": "You can edit this widget",
+    "canOnlyView": "You can only view this widget",
+    "shareWithEmail": "Share with email",
+    "emailPlaceholder": "Enter email address...",
+    "shareButton": "Share",
+    "accessInfo": "Registered users get editor access. External users get viewer access until they sign up.",
+    "peopleWithAccess": "People with access",
+    "removeAccess": "Remove access",
+    "pending": "Pending",
+    "externalUserAwaiting": "External user - awaiting signup",
+    "copyInviteLink": "Copy invite link",
+    "revokeInvite": "Revoke invite",
+    "noCollaborators": "No collaborators yet",
+    "leaveWidget": "Leave this widget",
+    "leaveWidgetDescription": "This will remove the widget from your dashboard and revoke your access",
+    "linkCopied": "Link copied to clipboard!",
+    "done": "Done",
+    "roles": {
+      "owner": "Owner",
+      "editor": "Editor",
+      "viewer": "Viewer"
+    },
+    "toast": {
+      "sharedSuccess": {
+        "title": "Shared Successfully",
+        "description": "{name} now has editor access"
+      },
+      "invitationSent": {
+        "title": "Invitation Sent",
+        "description": "Invitation created for {email} (viewer access)"
+      },
+      "roleUpdated": {
+        "title": "Role Updated",
+        "description": "Access level changed to {role}"
+      },
+      "accessRemoved": {
+        "title": "Access Removed",
+        "description": "Collaborator no longer has access"
+      },
+      "invitationRevoked": {
+        "title": "Invitation Revoked",
+        "description": "External user invite has been cancelled"
+      },
+      "copied": {
+        "title": "Copied",
+        "description": "Invite link copied to clipboard"
+      },
+      "widgetRemoved": {
+        "title": "Widget Removed",
+        "description": "You no longer have access to this widget"
+      },
+      "error": {
+        "title": "Error",
+        "roleUpdateFailed": "Failed to update role",
+        "removeFailed": "Failed to remove collaborator",
+        "revokeFailed": "Failed to revoke invitation",
+        "leaveFailed": "Failed to leave widget"
+      }
+    }
+  },
+  "calendar": {
+    "previousMonth": "Previous month",
+    "nextMonth": "Next month",
+    "addEvent": "Add event",
+    "calendarGrid": "Calendar grid",
+    "eventTitlePlaceholder": "Event title...",
+    "add": "Add",
+    "save": "Save",
+    "cancel": "Cancel",
+    "myEvents": "My Events",
+    "upcomingDueDates": "Upcoming Due Dates",
+    "hide": "Hide",
+    "show": "Show",
+    "completed": "Completed",
+    "completedEvents": "Completed Events",
+    "completedOn": "Completed on",
+    "noUpcomingEvents": "No upcoming events",
+    "noLocalEvents": "No local events",
+    "noEvents": "No events yet",
+    "markAsCompleted": "Mark as completed",
+    "editEvent": "Edit event",
+    "deleteEvent": "Delete event",
+    "restoreEvent": "Restore event",
+    "deletePermanently": "Delete permanently",
+    "confirmDelete": "Are you sure you want to delete this event?",
+    "today": "Today",
+    "tomorrow": "Tomorrow",
+    "daysOverdue": "{days} day overdue | {days} days overdue",
+    "inDays": "In {days} day | In {days} days",
+    "days": {
+      "su": "Su",
+      "mo": "Mo",
+      "tu": "Tu",
+      "we": "We",
+      "th": "Th",
+      "fr": "Fr",
+      "sa": "Sa"
+    },
+    "legend": {
+      "local": "Local",
+      "google": "Google"
+    },
+    "google": {
+      "title": "Google Calendar",
+      "sync": "Sync",
+      "synced": "Synced",
+      "syncButton": "Sync with Google Calendar",
+      "syncedLabel": "Synced",
+      "openInGoogle": "Open in Google Calendar",
+      "justNow": "just now",
+      "mAgo": "m ago",
+      "toast": {
+        "synced": {
+          "title": "Calendar Synced",
+          "description": "{count} event synced | {count} events synced"
+        },
+        "failed": {
+          "title": "Sync Failed",
+          "description": "Failed to sync with Google Calendar"
+        },
+        "notLinked": {
+          "title": "Google Calendar Not Linked",
+          "description": "Please link your Google account in settings to sync your calendar."
+        }
+      }
+    },
+    "toast": {
+      "eventAdded": {
+        "title": "Event added",
+        "description": "\"{title}\" was added successfully."
+      },
+      "eventCompleted": {
+        "title": "Event completed",
+        "description": "\"{title}\" marked as completed."
+      },
+      "eventRestored": {
+        "title": "Event restored",
+        "description": "\"{title}\" was restored."
+      },
+      "eventDeleted": {
+        "title": "Event deleted",
+        "description": "\"{title}\" was removed."
+      },
+      "eventUpdated": {
+        "title": "Event updated",
+        "description": "\"{title}\" was updated."
+      }
+    }
+  },
+  "editor": {
+    "placeholder": "Start writing your content...",
+    "toolbar": {
+      "bold": "Bold",
+      "italic": "Italic",
+      "underline": "Underline",
+      "highlight": "Highlight",
+      "heading1": "Heading 1",
+      "heading2": "Heading 2",
+      "heading3": "Heading 3",
+      "bulletList": "Bullet List",
+      "numberedList": "Numbered List",
+      "alignLeft": "Align Left",
+      "alignCenter": "Align Center",
+      "alignRight": "Align Right",
+      "undo": "Undo",
+      "redo": "Redo",
+      "copyContent": "Copy content",
+      "exportHtml": "Export as HTML"
+    },
+    "stats": {
+      "characters": "characters",
+      "words": "words"
+    },
+    "status": {
+      "saving": "Saving...",
+      "saved": "Saved",
+      "savedJustNow": "Saved just now",
+      "savedMinutesAgo": "Saved {minutes}m ago",
+      "savedAt": "Saved {time}",
+      "notSaved": "Not saved"
+    },
+    "toast": {
+      "copied": {
+        "title": "Copied",
+        "description": "Content copied to clipboard."
+      },
+      "downloaded": {
+        "title": "Downloaded",
+        "description": "Your content has been exported as HTML."
+      },
+      "error": {
+        "title": "Error",
+        "copyFailed": "Failed to copy content."
+      }
+    }
+  },
+  "imageGallery": {
+    "title": "Image Gallery",
+    "reload": "Reload",
+    "upload": "Upload",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "noImagesYet": "No images yet",
+    "noImagesInGallery": "No images in this gallery",
+    "uploadToGetStarted": "Upload images to get started",
+    "imageCount": "{count} image | {count} images",
+    "imagePreview": "Image Preview",
+    "deleteImage": "Delete Image",
+    "deleteConfirmMessage": "Are you sure you want to delete this image? This action cannot be undone.",
+    "toast": {
+      "galleryInitialized": {
+        "title": "Gallery Initialized",
+        "description": "New widget gallery created"
+      },
+      "connectionFailed": {
+        "title": "Connection Failed",
+        "description": "Could not connect to gallery"
+      },
+      "loadFailed": {
+        "title": "Load Failed",
+        "description": "Failed to load images"
+      },
+      "uploadSuccess": {
+        "title": "Upload Successful",
+        "description": "{count} image uploaded | {count} images uploaded"
+      },
+      "uploadFailed": {
+        "title": "Upload Failed",
+        "description": "Upload failed"
+      },
+      "imageDeleted": {
+        "title": "Image Deleted",
+        "description": "Image removed from gallery"
+      },
+      "deleteFailed": {
+        "title": "Delete Failed",
+        "description": "Delete failed"
+      }
+    }
+  },
+  "todo": {
+    "title": "Todo List",
+    "addNewTaskPlaceholder": "Add new task...",
+    "noTasksYet": "No tasks yet"
+  },
+  "notifications": {
+    "title": "Notifications",
+    "markAllRead": "Mark all read",
+    "noNotificationsYet": "No notifications yet",
+    "clearAll": "Clear all",
+    "actions": {
+      "addToDashboard": "Add to Dashboard",
+      "dismiss": "Dismiss",
+      "viewWidget": "View Widget",
+      "viewChanges": "View Changes",
+      "ok": "OK",
+      "gotIt": "Got it",
+      "view": "View",
+      "delete": "Delete"
+    },
+    "roles": {
+      "editor": "Editor",
+      "viewer": "Viewer"
+    },
+    "types": {
+      "widgetShared": {
+        "title": "Widget Shared With You",
+        "message": "{user} shared \"{widget}\" with you as {role}"
+      },
+      "roleChanged": {
+        "title": "Access Level Changed",
+        "message": "Your access to \"{widget}\" was changed to {role} by {user}"
+      },
+      "accessRemoved": {
+        "title": "Access Removed",
+        "message": "{user} removed your access to \"{widget}\""
+      },
+      "widgetUpdated": {
+        "title": "Widget Updated",
+        "message": "{user} made changes to \"{widget}\""
+      },
+      "collaboratorLeft": {
+        "title": "Collaborator Left",
+        "message": "{user} removed \"{widget}\" from their dashboard"
+      },
+      "widgetDeleted": {
+        "title": "Widget Deleted",
+        "message": "{user} deleted the shared widget \"{widget}\""
+      }
+    },
+    "timeAgo": {
+      "justNow": "Just now",
+      "minutesAgo": "{minutes}m ago",
+      "hoursAgo": "{hours}h ago",
+      "daysAgo": "{days}d ago"
+    }
+  },
+  "search": {
+    "placeholder": "Search widgets...",
+    "ariaLabel": "Search widgets",
+    "previousMatch": "Previous match",
+    "nextMatch": "Next match",
+    "clearSearch": "Clear search",
+    "resultsStatus": "{current} of {total} results",
+    "noWidgetsFound": "No widgets found"
+  },
+  "home": {
+    "createContentWith": "Create Content with",
+    "aiMagic": "Smart Tools",
+    "tagline": "Build stunning content with drag-and-drop simplicity, powered by cutting-edge automation. The perfect platform for creators, marketers, and storytellers.",
+    "welcomeBack": "Welcome back, {name}",
+    "creator": "Creator",
+    "getStarted": "Get Started for Free",
+    "watchDemo": "Watch Demo",
+    "yourDashboards": "Your Dashboards ({count})",
+    "created": "Created",
+    "createDashboard": {
+      "title": "Create New Dashboard",
+      "placeholder": "Enter dashboard title...",
+      "createButton": "Create",
+      "loadingMessage": "Loading your dashboards...",
+      "emptyState": {
+        "title": "No dashboards yet",
+        "description": "Create your first dashboard to get started"
+      }
+    },
+    "dates": {
+      "today": "Today",
+      "yesterday": "Yesterday",
+      "daysAgo": "{days} days ago"
+    },
+    "features": {
+      "heading": "Powerful Features",
+      "items": [
+        {
+          "title": "Intuitive Drag-and-Drop",
+          "description": "Effortlessly build beautiful layouts with our simple, powerful interface."
+        },
+        {
+          "title": "Smart Content Generation",
+          "description": "Let our tools write blog posts, ad copy, and social media content for you."
+        },
+        {
+          "title": "Real-time Collaboration",
+          "description": "Work with your team in real time to create and edit content together."
+        }
+      ]
+    },
+    "footer": {
+      "title": "Creative Studio",
+      "tagline": "Creating magical content experiences with smart, automated tools.",
+      "copyright": "© 2025 Content Studio. All rights reserved."
+    },
+    "modals": {
+      "editDashboard": {
+        "title": "Edit Dashboard",
+        "label": "Dashboard Title",
+        "cancelButton": "Cancel",
+        "saveButton": "Save Changes"
+      },
+      "deleteDashboard": {
+        "title": "Delete Dashboard",
+        "confirmMessage": "Are you sure you want to delete \"{title}\"? This will also delete all widgets in this dashboard. This action cannot be undone.",
+        "cancelButton": "Cancel",
+        "deleteButton": "Delete Dashboard"
+      }
+    },
+    "toast": {
+      "dashboardCreated": {
+        "title": "Dashboard Created",
+        "description": "\"{title}\" has been created successfully."
+      },
+      "dashboardUpdated": {
+        "title": "Dashboard Updated",
+        "description": "Dashboard title has been updated."
+      },
+      "dashboardDeleted": {
+        "title": "Dashboard Deleted",
+        "description": "Dashboard and all its widgets have been deleted."
+      },
+      "errors": {
+        "createDashboard": {
+          "title": "Error",
+          "description": "Failed to create dashboard. Please try again."
+        },
+        "updateDashboard": {
+          "title": "Error",
+          "description": "Failed to update dashboard. Please try again."
+        },
+        "deleteDashboard": {
+          "title": "Error",
+          "description": "Failed to delete dashboard. Please try again."
+        }
+      }
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Login",
+      "submitButton": "Login",
+      "noAccount": "Don't have an account?",
+      "signUpLink": "Sign up here"
+    },
+    "register": {
+      "title": "Register",
+      "submitButton": "Register",
+      "hasAccount": "Already have an account?",
+      "loginLink": "Login here"
+    },
+    "fields": {
+      "name": "Name",
+      "email": "Email",
+      "password": "Password"
+    },
+    "validation": {
+      "invalidEmail": "Invalid email",
+      "passwordMin": "Must be at least 8 characters"
+    },
+    "oauth": {
+      "google": "Login with Google",
+      "github": "Login with Github",
+      "microsoft": "Login with Mirosoft"
+    },
+    "toast": {
+      "loginSuccess": {
+        "title": "Logged In Successfully!",
+        "description": "Welcome!"
+      },
+      "registerSuccess": {
+        "title": "User Registered",
+        "description": "Thanks for registering!"
+      },
+      "errors": {
+        "loginTitle": "Error Logging In",
+        "loginGeneric": "There was an issue logging in. Please contact support",
+        "registerTitle": "Error Registering",
+        "registerGeneric": "There was an issue registering. Please contact support"
+      }
+    }
+  },
+  "sharePage": {
+    "loading": "Loading shared widget...",
+    "goToHome": "Go to Home",
+    "sharedWidget": "Shared Widget",
+    "sharedBy": "Shared by",
+    "unknown": "Unknown",
+    "linkExpires": "Link expires",
+    "signInToAdd": "Sign in to add this widget",
+    "createAccountOrSignIn": "Create an account or sign in to add this widget to your dashboard and start collaborating.",
+    "signIn": "Sign In",
+    "createAccount": "Create Account",
+    "redirectNote": "After signing in, you'll be redirected back here to add the widget.",
+    "widgetAlreadyInDashboard": "Widget already in your dashboard!",
+    "widgetAlreadyInDashboardDescription": "This widget is already in your dashboard. You can access it from there.",
+    "youHaveAccess": "You have {role} access",
+    "access": "access",
+    "addToYourDashboard": "Add to Your Dashboard",
+    "selectDashboardDescription": "Select which dashboard you want to add this widget to",
+    "selectDashboard": "Select a dashboard",
+    "noDashboardsYet": "You don't have any dashboards yet.",
+    "createDashboard": "Create Dashboard",
+    "created": "Created",
+    "createNewDashboard": "Create new dashboard",
+    "dashboardNamePlaceholder": "Dashboard name...",
+    "create": "Create",
+    "cancel": "Cancel",
+    "addWidgetToDashboard": "Add Widget to Dashboard",
+    "addToDashboard": "Add to Dashboard",
+    "youllGetAccess": "You'll get {role} access to this widget.",
+    "defaultDashboardName": "My Dashboard",
+    "errors": {
+      "linkNotFound": {
+        "title": "Link Not Found",
+        "message": "This share link doesn't exist or has been revoked."
+      },
+      "linkExpired": {
+        "title": "Link Expired",
+        "message": "This share link has expired. Please ask the owner for a new link."
+      },
+      "generic": {
+        "title": "Error",
+        "message": "Failed to load shared widget."
+      }
+    },
+    "expiration": {
+      "unknown": "Unknown",
+      "expired": "Expired",
+      "daysLeft": "{days} day left | {days} days left",
+      "hoursLeft": "{hours} hour left | {hours} hours left",
+      "lessThanHour": "Less than 1 hour"
+    },
+    "toast": {
+      "dashboardCreated": {
+        "title": "Dashboard Created",
+        "description": "\"{name}\" has been created"
+      },
+      "widgetAdded": {
+        "title": "Widget Added!",
+        "description": "The widget has been added to your dashboard"
+      },
+      "error": {
+        "title": "Error",
+        "createDashboardFailed": "Failed to create dashboard",
+        "addWidgetFailed": "Failed to add widget to dashboard"
+      }
+    }
+  },
+  "widgetPreview": {
+    "widget": "Widget",
+    "preview": "Preview",
+    "done": "Done",
+    "widgetPreview": "Widget preview",
+    "type": "Type",
+    "imagePreview": "Image Preview",
+    "roles": {
+      "editor": "Editor",
+      "viewer": "Viewer"
+    },
+    "widgetTypes": {
+      "contentEditor": "Content Editor",
+      "todoList": "Todo List",
+      "calendar": "Calendar",
+      "imageGallery": "Image Gallery",
+      "quickNotes": "Quick Notes"
+    },
+    "emptyStates": {
+      "noContent": "No content yet",
+      "noTasks": "No tasks yet",
+      "noEvents": "No events yet",
+      "noImages": "No images yet"
+    },
+    "dates": {
+      "today": "Today",
+      "tomorrow": "Tomorrow"
+    }
+  }
+}
